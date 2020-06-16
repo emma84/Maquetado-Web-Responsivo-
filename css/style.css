@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    display: block;
+    margin: 0;
+}
+
+
+/*GLOBALES*/
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+    border: solid;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*UTILIDADES*/
+
+.centrar-texto {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.btn {
+    background-color: chocolate;
+    font-size: 2rem;
+    color: #ffffff;
+    max-width: 20rem;
+    padding: 1rem 0;
+    border-radius: 1rem;
+}
+
+.principal {
+    background-image: url(/img/imagen4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 30rem;
+}
+
+.article-principal h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .article-principal h3 {
+        text-align: right;
+        margin-right: 2rem;
+    }
+}
+
+.article-principal p {
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .article-principal p {
+        text-align: right;
+        margin-right: 2rem;
+    }
+}
+
+.imagen {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .imagen {
+        text-align: right;
+        margin-right: 2rem;
+    }
+}
+
+.carousel-inner img {
+    height: 5rem;
+}
